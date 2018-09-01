@@ -8,7 +8,7 @@
     <IndexTw></IndexTw>
     <IndexTh></IndexTh>
     <IndexFo></IndexFo>
-    <router-view/>
+    <!-- <router-view/> -->
   </div>
 </template>
 
