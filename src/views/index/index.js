@@ -6,6 +6,7 @@ import router from './router'
 import Dh from './../public/Dh'
 import Bq from './../public/Bq'
 import Banner from './../public/Banner'
+// import IndexOn from './components/IndexOn'
 
 Vue.config.productionTip = false
 
