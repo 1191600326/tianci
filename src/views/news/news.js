@@ -3,6 +3,9 @@
 import Vue from 'vue'
 import App from './newsApp'
 import router from './router'
+import Dh from './../public/Dh'
+import Bq from './../public/Bq'
+import Banner from './../public/Banner'
 
 Vue.config.productionTip = false
 
@@ -13,7 +16,13 @@ Vue.config.productionTip = false
 //   components: { App },
 //   template: '<App/>'
 // })
+// new Vue({
+//   router,
+//   render: h => h(App)
+// }).$mount('#app')
 new Vue({
+  el: '#app',
   router,
-  render: h => h(App)
-}).$mount('#app')
+  components: { App, Dh, Bq, Banner },
+  template: '<div><Dh/><Banner/><App/><Bq/></div>'
+})

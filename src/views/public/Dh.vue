@@ -1,5 +1,5 @@
 <template>
-  <div id="head">
+  <div class="head">
     head
   </div>
 </template>
@@ -12,6 +12,9 @@ export default {
 
 <style>
 .head {
-  font-size: 200px;
+  background-color: aquamarine;
+  height: 100px;
+  width: 100%;
+  font-size: 50px;
 }
 </style>

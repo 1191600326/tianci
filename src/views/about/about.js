@@ -5,6 +5,7 @@ import App from './aboutApp'
 import router from './router'
 import Dh from './../public/Dh'
 import Bq from './../public/Bq'
+import Banner from './../public/Banner'
 
 Vue.config.productionTip = false
 
@@ -22,6 +23,6 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
-  components: { App, Dh, Bq },
-  template: '<div><Dh/><App/><Bq/></div>'
+  components: { App, Dh, Bq, Banner },
+  template: '<div><Dh/><Banner/><App/><Bq/></div>'
 })

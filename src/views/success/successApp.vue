@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <img src="../../assets/logo.png">
-    success
+    <!-- <img src="../../assets/logo.png"> -->
+    <!-- success -->
     <router-view/>
   </div>
 </template>
@@ -13,6 +13,9 @@ export default {
 </script>
 
 <style>
+*{
+  margin: 0 auto;
+}
 .index {
   font-size: 200px;
 }

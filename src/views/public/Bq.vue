@@ -11,7 +11,10 @@ export default {
 </script>
 
 <style>
-.banquan {
-  font-size: 200px;
+#banquan {
+  /* font-size: 200px; */
+  background-color: beige;
+  height: 100px;
+  width: 100%;
 }
 </style>

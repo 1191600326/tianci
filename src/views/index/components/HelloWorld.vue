@@ -10,7 +10,7 @@
       <a href="/views/relation.html">跳转到relation页</a>
       <a href="/views/success.html">跳转到success页</a>
     </h2>
-    <router-link :to="{ name: 'testRouter' }">index.html中的子路由</router-link>
+    <router-link :to="{ name: 'testRouter' }">index中的子路由</router-link>
     <router-view/>
   </div>
 </template>

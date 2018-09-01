@@ -4,7 +4,6 @@
     <!-- <img src="../../assets/logo.png"> -->
     indexindexindexindex
     <br/>
-    <headd/>
     <router-view/>
   </div>
 </template>
@@ -17,6 +16,9 @@ export default {
 </script>
 
 <style>
+*{
+  margin: 0 auto;
+}
 .index {
   font-size: 100px;
 }

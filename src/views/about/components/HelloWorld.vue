@@ -19,7 +19,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: '首页内容'
+      msg: 'about'
     }
   }
 }
