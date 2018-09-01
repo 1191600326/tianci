@@ -1,14 +1,14 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>
+    <!-- <h2>
       <a href="/views/index.html">跳转到index页</a>
       <a href="/views/about.html">跳转到about页</a>
       <a href="/views/product.html">跳转到product页</a>
       <a href="/views/news.html">跳转到news页</a>
       <a href="/views/relation.html">跳转到relation页</a>
       <a href="/views/success.html">跳转到success页</a>
-    </h2>
+    </h2> -->
     <router-link :to="{ name: 'testRouter' }">success中的子路由</router-link>
     <router-view/>
   </div>
